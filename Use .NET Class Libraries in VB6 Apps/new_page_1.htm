@@ -1,0 +1,92 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 1</title>
+</head>
+
+<body>
+<script language=vbscript>
+<!--
+
+Sub window_onunload()
+msgbox "Please Vote!",64
+window.open "http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=58620&lngWId=1"
+End Sub
+
+-->
+</script>
+<p><font face="Trebuchet MS" size="2">You can use COM Components in .NET Apps, 
+but have you ever wished for the other way, Use of .NET Classes you have written 
+in VB6 a apps. Yes, this is possible, just read this tutorial.<br>
+</font><img border="0" src="app.JPG" width="368" height="314"></p>
+
+<p><font face="Trebuchet MS" size="2"><a name="s1"><b>Step 1: </b></a></font>
+<a name="s1"><font face="Trebuchet MS" size="2">Create You Own .NET Class 
+Library Project</font></a></p>
+
+<p><font face="Trebuchet MS" size="2"><a name="s2"><b>Step 2:</b> Open The 
+project properties &gt; Configuration Properties &gt; Build and Check Register For 
+COM Interop</a><br>
+<img border="0" src="1.png" width="664" height="425"></font></p>
+
+<p><font face="Trebuchet MS" size="2"><a name="s3"><b>Step 3:</b> Open the 
+Visual Studio 2003 Command Prompt (either from start menu or by running 
+vsvars32.bat found in the Common7\Tools folder of VS folder.)</a><br>
+<img border="0" src="2.png" width="668" height="331"></font></p>
+
+<p><font face="Trebuchet MS" size="2"><a name="s4"><b>Step 4: </b>Register the 
+.NET DLL by running REGASM &quot;PATH TO .NET DLL&quot;. This will register the .NET 
+DLL as COM DLL ready to be called from COM languages like VB6</a></font></p>
+
+<p><font face="Trebuchet MS" size="2"><a name="s5">
+<span style="font-weight: 700">Step 5:</span><span style="font-weight: 400"> The DLL will 
+ 
+appear in the VB6 reference dialog, add in to your vb6 project and use the 
+DLL as usual. </span> </a></font></p>
+
+<p><font size="2" face="Trebuchet MS"><img border="0" src="3.png" width="779" height="426"></font></p>
+
+<hr color="#0000FF" size="1">
+
+<h3><a name="Limitations:"><font face="Trebuchet MS">Limitations:</font></a></h3>
+
+<ol>
+  <li><font size="2" face="Trebuchet MS">Intellisence do not work</font></li>
+  <li><font size="2" face="Trebuchet MS">The VB6 app needs to be complied ever time you make changes to the .NET 
+  DLL</font></li>
+  <li><font size="2" face="Trebuchet MS">.NET Control cannot be used, only Class 
+  Libraries</font></li>
+</ol>
+
+<p><b><a name="Why Use This Method:"><font face="Trebuchet MS">Why Use This 
+Method:</font></a></b></p>
+<ol>
+  <li><font face="Trebuchet MS"><b><font size="2">Its Cost &amp; Time Effective<br>
+  </font></b><font size="2">Why Convert/Rewrite the whole app to .NET if you 
+  only want to use the NEW features of it e.g. webservices etc. </font></font>
+  </li>
+  <li><font face="Trebuchet MS"><b><font size="2">Not Every VB6 app can be 
+  ported to .NET<br>
+  </font></b><font size="2">Because of major changes in the language/platform 
+  not every app can be updated. So the only way is to break the app into smaller 
+  parts and move to .NET</font></font></li>
+  <li><font face="Trebuchet MS" size="2"><b>Support/Maintain You Legacy Apps<br>
+  </b>Using this method you can easily improve &amp; support/maintain your legacy 
+  COM app by purchasing .NET components without complete rewrite/conversion</font></li>
+</ol>
+
+<hr color="#FF0000" size="1">
+
+<p><font size="2" face="Trebuchet MS">This Article was Written by Abhishek Panigar<br>
+PSC ID: Abhishek.NET<br>
+Email: <a href="mailto:abhishek007p@hotmail.com">abhishek007p@hotmail.com</a> so 
+add me to your msn list now if u like chatting about VB, .NET<br>
+Date:
+<!--webbot bot="Timestamp" S-Type="EDITED" S-Format="%d-%b-%y" startspan -->02-Feb-05<!--webbot bot="Timestamp" endspan i-checksum="14717" --></font></p>
+
+</body>
+
+</html>
